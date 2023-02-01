@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Signika&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Italianno&family=Signika&display=swap" rel="stylesheet">
+<script type="text/javascript" src="slide1.js"></script>
+<script type="text/javascript" src="slide2.js"></script>
+
+<script>
+  function sendEmail() {
+    const Http = new XMLHttpRequest();
+    const url='https://gmail.com/send';
+    Http.open("POST", url);
+    Http.send(JSON.stringify({
+      to: 'maksudurrahmanjibon@gmail.com',
+      subject: 'Email Subject',
+      text: 'Email message'
+    }));
+    Http.onreadystatechange=(e)=>{
+      console.log(Http.responseText)
+    }
+  }
+</script>
+
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <img class="cloud1" src="Images/cloud.png" alt="cloud Image">
+    <h1>I'm Jibon</h1>
+    <h2 class="intro">A web developer</h2>
+<img class="cloud2" src="Images/cloud.png" alt="cloud Image">
+<img class="mountain" src="Images/mountain.png" alt="mountain image">
+  </div>
+
+  <div class="mid">
+<div class="intro">
+  <img class="mid-img1" src="Images/IMG_20200102_134228.jpg" alt="Jibon's image">
+  <h2>Hello</h2>
+  <p> I'm a web developer with over 3 years of experience in developing and designing websites.
+    I specialize in full-stack development, with extensive experience in JavaScript, HTML & CSS.
+    My goal is to create websites that are user-friendly, visually appealing, and highly functional.
+    I'm a problem-solver who is always looking for new and innovative ways to tackle challenging projects.
+    I'm driven to create websites that have a positive impact on businesses and their customers.</div>
+<hr>
+<div class="skillsdescription">
+  <h2>My Skills</h2>
+  <div class="skill1">
+    <img class="mid-img2" src="Images/Skill.png" alt="Skill image ">
+    <h3>Designs & Develompent</h3>
+    <p class="skilldescrip1">I have extensive experience in designing and developing websites.
+      I specialize in full-stack development, with expertise in HTML/CSS, JavaScript, and PHP.
+      My goal is to create websites that are visually appealing, user-friendly, and highly functional.
+      I'm able to quickly understand the needs of clients and create solutions that meet their requirements.
+      I'm also passionate about staying up-to-date on the latest web technologies and trends,
+       to ensure that my websites are modern and optimized for search engine results.</p></div>
+  <div class="skill2">
+    <img class="mid-img3 " src="Images/guitar.png" alt="Guitar Image">
+    <h3>Singing and playing Guitar</h3>
+    <p class="skilldescript2">I'm an avid guitarist and singer, with a passion for creating music. Music has always been a big part of my life, and I've been playing guitar and singing for over 10 years. My style is a mix of folk, rock, and blues, and I enjoy performing both covers and original songs. I'm always looking for new ways to express myself through music, and I'm constantly challenging myself to improve my skills. Playing guitar and singing is a great way for me to relax and express myself creatively.</div>
+
+</div>
+<hr>
+<div class="contact">
+  <h2>Get in Touch</h2>
+  <h3>If you love to sing and play guitar</h3>
+  <p>I'm here to help - please don't hesitate to reach out and contact me anytime. I'm always happy to answer any questions you may have.</p>
+  <button onclick="sendEmail()">Send Email</button>
+</a>
+
+</div>
+  </div>
+
+  <div class="footer">
+<div class="links">
+  <a class="fl" href=https://www.facebook.com/oporichito.bondhu.90> <img id="fblogo" src="Images/fb.png" alt="facebook"> </a>
+
+</div>
+
+<p class="cpr8">&copy;2023 Maksudur Rahman</p>
+  </div>
+
+</body>
+</html>

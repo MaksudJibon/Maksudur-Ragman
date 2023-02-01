@@ -1,0 +1,202 @@
+body{
+  margin: 0;
+  text-align: center;
+  letter-spacing: 2;
+  line-height: 2;
+}
+
+
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #66BFBF;
+  font-size: 8rem;
+  font-family: 'Italianno', cursive;
+  line-height: 1;
+}
+
+p{
+  color: #40514E;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 32px;
+  font-family: 'Acme', sans-serif;
+}
+
+h2{
+  color: #66BFBF;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Signika', sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+hr{
+  color: #EAF6F6 ;
+  border-style: dotted;
+  border-width: .50rem;
+  border-top: 0;
+  margin : 10px auto 10px auto;
+  width: 50px;
+  display: block;
+}
+
+.header{
+  background-color: #EAF6F6;
+}
+
+.cloud1{
+  width: 9rem;
+  height: 6rem;
+  margin-left: 65rem;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+
+.cloud2{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 9rem;
+  height: 6rem;
+  margin-left: 20rem;
+}
+
+
+.mountain{
+  display: block;
+  width: 700px;
+  height: 550px;
+  margin: 0 auto;
+}
+
+
+.mid-img1{
+  border-radius: 1000px;
+  height: 250px;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mid-img2{
+  background-color:#EAF6F6;
+  border-radius: 1000px;
+  height: 250px;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  float: left;
+}
+
+  .mid-img3{
+    background-color:#EAF6F6;
+    border-radius: 1000px;
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    float: right;
+  }
+
+
+.mid{
+  background-color: #FFFFFF;
+  margin-top: 16px;
+}
+
+
+.skill1{
+  margin: 0 auto 0 auto;
+  text-align: left;
+  width: 75%;
+}
+.skill2{
+  margin: auto;
+  margin-top: 80px;
+  text-align: right;
+  width: 75%;
+}
+
+.skilldescrip1{
+  text-align: left;
+  margin: auto;
+}
+
+.intro{
+  width: 75%;
+  margin: auto;
+}
+
+.skilldescript2{
+  text-align: right;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.skillsdescription{
+  display: inline-block;
+}
+
+.footer{
+  background-color: #66BFBF;
+  margin-top: 20px;
+  margin-bottom: 0;
+  height:200px;
+
+}
+
+.links{
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fl{
+  font-size: 20px;
+  color: #11999E;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: help;
+  text-decoration: none;
+
+}
+
+#fblogo{
+  width:50px ;
+  height: 50px;
+
+}
+
+#fblogo:hover{
+  width:80px ;
+  height: 80px;
+}
+
+
+button {
+  background-color: #66BFBF;
+  color : #EAF6F6;
+  width: 100px;
+  height: 40px;
+  transition: all 0.3s ease 0s;
+  border: none;
+}
+
+button:hover {
+  background-color: #EAF6F6;
+  color: #66BFBF;
+  width: 120px;
+  height: 50px;
+}
